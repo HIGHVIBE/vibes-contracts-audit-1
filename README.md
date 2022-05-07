@@ -20,13 +20,13 @@ and our vesting contract to create new vesting logics for developers, shareholde
 
 [**OpenZeppelin**](https://openzeppelin.com/) - verified market standards
 
-[Remix IDE](https://remix.ethereum.org/) - for deployment tests
+[**Remix IDE**](https://remix.ethereum.org/) - for deployment tests
 
 ## Deployment steps
 
 Deployment order is as follows:
 
-1. Deploy and initialize VIBESToken.sol with "name: VIBES, Symbol: VIBES and 21 Billion * 10^18 totalSupply"
+1. Deploy and initialize VIBESToken.sol with "name: VIBES, symbol: VIBES and 21 Billion * 10^18 totalSupply"
 2. Deploy VIBESProxyAdmin.sol
 3. Deploy VIBESProxy.sol
 4. Change the proxy address on the Admin contract
